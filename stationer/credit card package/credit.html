@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+
+	<head>
+		<meta charset = "UTF-8">
+		<title> JavaScripts </title>
+		<link rel = "stylesheet" href="credit.css" type="text/css">
+		<script src="credit.js" > </script>
+	</head>
+	
+	<body>
+		<h1> Credit Form </h1>
+		<h4> Please Enter your credit number </h4>
+		<div id = "MyFormDiv">
+			<form id = "myForm" action = "credit.php" method = "post" onsubmit = "return Validation()">
+				<div id = "arc">
+					<label for = "code" > product code </label>
+					<input type="text" name = "code" > <br> <br> 
+				</div>
+				
+				<div id = "arc">
+					<label for = "credit" > Credit Number </label>
+					<input type="text" name = "credit" > <br> <br> 
+				</div>
+				<div id = "arc">
+					<label for = "password"> Password </label> 
+					<input type = "password" name = "password" > <br> <br> 
+					</div>
+				<div  id = "arc">
+					<label for = "Submit"> Click To submit </label>
+					<input type = "Submit" value = "submit" name = "sub"> <br>
+				</div>
+				
+				
+			</form>
+		</div>
+	</body>
+
+</html>

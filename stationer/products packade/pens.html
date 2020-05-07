@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Office Supplies</title>
+  <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+  <link rel="stylesheet" href="pens.css" />
+  <script src="pens.js" > </script>
+
+</head>
+
+<body>
+
+  <div>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Office Supplies</a>
+      <a class="navbar-brand" href="http://localhost:83/hello/aboutus.html">About US</a>
+	  <a class="navbar-brand" href="http://localhost:83/hello/contactus.html">Contact US</a>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="view.html">Home</a>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Change Password</a>
+          </li> 
+		  <li class="nav-item">
+            <a class="nav-link" href="http://localhost:83/hello/intro.html">LogOut</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="col-lg-9">
+	<div id="Slidess" class="carousel slide my-4" data-ride="carousel" style ="padding-left:150px;width:120%;">
+			  <ol class="carousel-indicators" style="padding-left:150px;">
+				<li data-target="#Slidess" data-slide-to="0" class="active"></li>
+				<li data-target="#Slidess" data-slide-to="1"></li>
+				<li data-target="#Slidess" data-slide-to="2"></li>
+				<li data-target="#Slidess" data-slide-to="3"></li>
+				<li data-target="#Slidess" data-slide-to="4"></li>
+				<li data-target="#Slidess" data-slide-to="5"></li>
+				<li data-target="#Slidess" data-slide-to="6"></li>
+				<li data-target="#Slidess" data-slide-to="7"></li>
+				<li data-target="#Slidess" data-slide-to="8"></li>
+				<li data-target="#Slidess" data-slide-to="9"></li>
+			  </ol>
+			  
+			  <div class="carousel-inner" role="listbox" >
+				<div class="carousel-item active" >
+				  <img class="slid" src="2020.png" alt="First slide" style="width:100%;height:592px;">
+				</div>
+				<div class="carousel-item">
+				  <img class="slid" src="lib.jpg" alt="Second slide" style="width:100%;height:592px;">
+				</div>
+				<div class="carousel-item">
+				  <img class="slid" src="lib2.jpg" alt="Third slide" style="width:100%;height:592px;">
+				</div>
+				<div class="carousel-item">
+				  <img class="slid" src="4.jpg" alt="4th slide" style="width:100%;height:592px;">
+				</div>
+				<div class="carousel-item">
+				  <img class="slid" src="5.jpg" alt="5thslide" style="width:100%;height:592px;">
+				</div>
+				<div class="carousel-item">
+				  <img class="slid" src="6.jpg" alt="6th slide" style="width:100%;height:592px;">
+				</div>
+				<div class="carousel-item">
+				  <img class="slid" src="1.jpg" alt="7th slide" style="width:100%;height:592px;">
+				</div>
+				<div class="carousel-item">
+				  <img class="slid" src="2.jpg" alt="8th slide" style="width:100%;height:592px;">
+				</div>
+				<div class="carousel-item">
+				  <img class="slid" src="3.jpg" alt="9th slide" style="width:100%;height:592px;">
+				</div>
+				<div class="carousel-item">
+				  <img class="slid" src="7.jpg" alt="10th slide" style="width:100%;height:592px;">
+				</div>
+			  </div>
+			  <a class="carousel-control-prev" href="#Slidess" role="button" data-slide="prev" style ="padding-left:180px;">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			  </a>
+			  <a class="carousel-control-next" href="#Slidess" role="button" data-slide="next" style="padding-left:110px">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			  </a>
+			</div>
+		</div>
+		
+	<div class="container">
+
+    <div class="row">
+
+      <div class="col-lg-1">
+		<button class="open-button" onclick="openForm()">Chat</button>
+		<div class="chat-popup" id="myForm">
+		  <form action="" class="form-container">
+			<h1>Chat</h1>
+
+			<label for="msg"><b>Message</b></label>
+			<textarea placeholder="Type message.." name="msg" required></textarea>
+
+			<button type="submit" class="btn">Send</button>
+			<button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+		  </form>
+		</div>
+
+      </div>
+	  
+	  <div class="col-lg-11">
+	   <div class="row">
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+              <a href="#"><img class="card-img-top" src="c.jpg" alt="pens" style="margin-left:150px;width:25px;height:200px;"  ></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#">Red Pen</a>
+                </h4>
+                <h5>14 L.E</h5>
+                <p class="card-text">Uniball Laknock SN100 Ballpoint Pen - 0.7 mm. - Red</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9733;</small> <br>
+				<label for= "text"> Add To Cart </label> &nbsp; 
+				<image src="cc4.png" alt="ADD" width="30" height="30"> &nbsp; &nbsp; &nbsp; 
+				<label for="text"> #1141 </label>
+              </div>
+            </div>
+          </div>
+
+         <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+              <a href="#"><img class="card-img-top" src="c2.jpg" alt="Office Supplies" style="margin-left:120px;width:100px;height:200px;"></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#">Pen</a>
+                </h4>
+                <h5>9 L.E</h5>
+                <p class="card-text">Bravo Stylus Ballpoint Pen, Blue</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9733;</small> <br>
+				<label for= "text"> Add To Cart </label> &nbsp; 
+				<image src="cc4.png" alt="ADD" width="30" height="30"> &nbsp; &nbsp; &nbsp; 
+				<label for="text"> #1142 </label>
+              </div>
+            </div>
+         </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+              <a href="#"><img class="card-img-top" src="c3.jpg" alt="marker" style="margin-left:120px;width:170px;height:200px;"></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#">Marker</a>
+                </h4>
+                <h5>35 L.E</h5>
+                <p class="card-text">Schneider Maxx 133 Chisel Tip Permanent Marker, Black</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9733;</small> <br>
+				<label for= "text"> Add To Cart </label> &nbsp; 
+				<image src="cc4.png" alt="ADD" width="30" height="30"> &nbsp; &nbsp; &nbsp; 
+				<label for="text"> #1143 </label>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+              <a href="#"><img class="card-img-top" src="c4.jpg" alt="Eraser" style="margin-left:50px;width:200px;height:200px;"></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#">Eraser</a>
+                </h4>
+                <h5>5 L.E</h5>
+                <p class="card-text">Faber-Castell 188950 Black Pvc Free Eraser</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9733;</small> <br>
+				<label for= "text"> Add To Cart </label> &nbsp; 
+				<image src="cc4.png" alt="ADD" width="30" height="30"> &nbsp; &nbsp; &nbsp; 
+				<label for="text"> #1144 </label>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+              <a href="#"><img class="card-img-top" src="c5.jpg" alt="Eraser"  style="margin-left:50px;width:200px;height:200px;"></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#">Eraser</a>
+                </h4>
+                <h5>9 L.E</h5>
+                <p class="card-text">Faber Castell Pvc Free eraser - Red</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9733;</small> <br>
+				<label for= "text"> Add To Cart </label> &nbsp; 
+				<image src="cc4.png" alt="ADD" width="30" height="30"> &nbsp; &nbsp; &nbsp; 
+				<label for="text"> #1145 </label>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+              <a href="#"><img class="card-img-top" src="c6.jpg" alt="pens" style="margin-left:120px;width:100px;height:200px;"></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#">Pens</a>
+                </h4>
+                <h5>27 L.E</h5>
+                <p class="card-text">Bravo Dark Ballpoint Pen -Pack of 10, Blue</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9733;</small> <br>
+				<label for= "text"> Add To Cart </label> &nbsp; 
+				<image src="cc4.png" alt="ADD" width="30" height="30"> &nbsp; &nbsp; &nbsp; 
+				<label for="text"> #1146 </label>
+              </div>
+            </div>
+          </div>
+
+        </div>
+		 <div class="row">
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+              <a href="#"><img class="card-img-top" src="c7.jpg" alt="Highliters" style="padding-left:80px;width:250px;height:200px;" ></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#">Highliters</a>
+                </h4>
+                <h5>160 L.E</h5>
+                <p class="card-text">Staedtler Set Of 6 Textsurfer Highliters Pens.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9733;</small> <br>
+				<label for= "text"> Add To Cart </label> &nbsp; 
+				<image src="cc4.png" alt="ADD" width="30" height="30"> &nbsp; &nbsp; &nbsp; 
+				<label for="text"> #1147 </label>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+              <a href="#"><img class="card-img-top" src="c8.jpg" alt="Whiteboard" style="padding-left:80px;width:250px;height:200px;"></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#">Whiteboard Marker</a>
+                </h4>
+                <h5>150 L.E</h5>
+                <p class="card-text">Bic Velleda 1701 Round Tip Whiteboard Marker, Pack of 12 - Black</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9733;</small> <br>
+				<label for= "text"> Add To Cart </label> &nbsp; 
+				<image src="cc4.png" alt="ADD" width="30" height="30"> &nbsp; &nbsp; &nbsp; 
+				<label for="text"> #1148 </label>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+              <a href="#"><img class="card-img-top" src="c9.jpg" alt="Watercolor" style="padding-left:80px;width:250px;height:200px;"></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#">Watercolor</a>
+                </h4>
+                <h5>130 L.E</h5>
+                <p class="card-text">Faber-Castell 114464 Long Watercolor Pencils - Set of 24</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9733;</small> <br>
+				<label for= "text"> Add To Cart </label> &nbsp; 
+				<image src="cc4.png" alt="ADD" width="30" height="30"> &nbsp; &nbsp; &nbsp; 
+				<label for="text"> #1149 </label>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+              <a href="#"><img class="card-img-top" src="22.jpg" alt="Watercolor Tablets" style="padding-left:80px;width:250px;height:200px;"></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#">Watercolor Tablets</a>
+                </h4>
+                <h5>155 L.E</h5>
+                <p class="card-text">Primo 137A24GMP Watercolor 30 mm Tablets, 7.5 ml White Paste, Paint Brush, Set of 24 Colors.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9733;</small> <br>
+				<label for= "text"> Add To Cart </label> &nbsp; 
+				<image src="cc4.png" alt="ADD" width="30" height="30"> &nbsp; &nbsp; &nbsp; 
+				<label for="text"> #1150 </label>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+              <a href="#"><img class="card-img-top" src="c11.jpg" alt="Wooden" style="padding-left:80px;width:250px;height:200px;"></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#">Wooden Palette</a>
+                </h4>
+                <h5>50 L.E</h5>
+                <p class="card-text">Wooden Palette, 6 Pieces - Wood</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9733;</small> <br>
+				<label for= "text"> Add To Cart </label> &nbsp; 
+				<image src="cc4.png" alt="ADD" width="30" height="30"> &nbsp; &nbsp; &nbsp; 
+				<label for="text"> #1151 </label>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+              <a href="#"><img class="card-img-top" src="c12.jpg" alt="Sticky"style="padding-left:80px;width:250px;height:200px;"></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#">Sticky Note</a>
+                </h4>
+                <h5>60 L.E</h5>
+                <p class="card-text">HOPAX-Stick'n 21425 Sticky Note 76X76 mm - Multi Color, 200 Sheets</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9733;</small> <br>
+				<label for= "text"> Add To Cart </label> &nbsp; 
+				<image src="cc4.png" alt="ADD" width="30" height="30"> &nbsp; &nbsp; &nbsp; 
+				<label for="text"> #1152 </label>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+	  </div>
+	 </div>
+  </div>
+
+<footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">copyright &copy; 2019 All Rights Reserved to Alwan &reg; team</p>
+    </div>
+</footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

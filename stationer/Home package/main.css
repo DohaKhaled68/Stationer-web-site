@@ -1,0 +1,282 @@
+@import url(font-awesome.min.css);
+@import url("http://fonts.googleapis.com/css?family=Raleway:300,700");
+
+/* Type */
+
+	body {
+		background-color: #FFF;
+	}
+
+	body, input, select, textarea {
+		font-family: Raleway, Arial, Helvetica, sans-serif;
+		font-size: 14pt;
+		font-weight: 300;
+		letter-spacing: 0.1em;
+		line-height: 1.65em;
+	}
+	strong{
+		font-weight: 700;
+	}
+	
+	p {
+		margin: 0 0 2em 0;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		font-weight: 300;
+		line-height: 1.5em;
+		margin: 0 0 1em 0;
+		text-transform: uppercase;
+	}
+
+	h2 {
+		font-size: 1.6em;
+	}
+
+	h3 {
+		font-size: 1.2em;
+	}
+
+/* Button */
+
+	input[type="submit"],
+	.button {
+		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		cursor: pointer;
+		display: inline-block;
+		height: 2.85em;
+		line-height: 2.95em;
+		padding: 0 1.5em;
+		text-align: center;
+		text-decoration: none;
+		text-transform: uppercase;
+		background-color: #f7f7f7;
+	}
+
+		input[type="submit"]:hover,
+		.button:hover {
+			background-color: white;
+		}
+		
+/* Form */
+
+	form {
+		margin: 0 0 2em 0;
+	}
+
+	.grid-form {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+
+		.grid-form .form-control {
+			width: 100%;
+			margin-bottom: 2em;
+		}
+
+			.grid-form .form-control.narrow {
+				width: 47%;
+			}
+
+		.grid-form .actions {
+			margin-bottom: 0;
+			width: 100%;
+		}
+
+	label {
+		display: block;
+		font-size: 0.9em;
+		margin: 0 0 0.2em 0;
+		text-transform: uppercase;
+	}
+
+	input[type="text"],
+	input[type="email"],
+	textarea {
+		border: solid 1px;
+		color: inherit;
+		display: block;
+		padding: 0 1em;
+		text-decoration: none;
+		width: 100%;
+	}
+	
+	input[type="text"],
+	input[type="email"]
+	{
+		height: 2.75em;
+	}
+
+	textarea {
+		padding: 0.75em 1em;
+	}
+
+/* List */
+
+		ul.actions {
+			cursor: default;
+			list-style: none;
+		}
+
+		ul.actions li {
+				display: inline-block;
+				padding: 0 1em 0 0;
+				vertical-align: middle;
+			}
+			
+/* Section */
+
+	section.special{
+		text-align: center;
+	}
+
+	header {
+		margin-bottom: 1em;
+	}
+
+		header h2, header h3 {
+			display: inline-block;
+			padding-bottom: 0.4em;
+			border-bottom-style: double;
+			border-bottom-width: 4px;
+		}
+
+		header h2 + p {
+			font-size: 1.25em;
+			margin-top: -0.5em;
+			line-height: 1.5em;
+		}
+
+		header h3 + p {
+			font-size: 1.1em;
+			line-height: 1.5em;
+		}
+
+		header.major {
+			margin-bottom: 4em;
+		}
+
+
+	header h2, header h3 {
+		border-bottom-color: #e3e3e3;
+	}
+
+/* Feature */
+
+	.features {
+	
+		display: flex;
+		justify-content: center;
+		margin-bottom: 2em;
+	}
+
+	.feature {
+		padding: 2em 2em 0em 2em;
+		border-style: solid;
+		border-width: 1px;
+	}
+
+	.feature {
+		border-color: #e3e3e3;
+	}
+
+
+/* Wrapper */
+
+	.wrapper {
+		padding: 6em 0 4em 0;
+		position: relative;
+	}
+
+	.inner {
+		margin: 0 auto;
+		width: 65em;		
+	}
+
+	.inner.narrow {
+		width: 35em;
+	}
+
+
+		.wrapper.style2 {
+			background-color: #FFE4E1;
+		}
+
+			.wrapper.style2 input[type="submit"]
+			{
+				background-color: #555;
+				color: #f7f7f7;
+			}
+
+			.wrapper.style2 input[type="text"],
+			.wrapper.style2 input[type="email"],
+			.wrapper.style2 textarea {
+				border-color: #ddd;
+			}
+
+/* Banner */
+
+	#banner {
+		background-color: #A52A2A;
+		color: #ffffff;
+		padding: 8em 0 6em 0;
+		text-align: center;
+	}
+			#banner .button.special {
+				background-color: #fff;
+				color: #A52A2A ;
+			}
+
+
+			#banner .button.special:hover {
+				background-color: #FFE4E1;
+			}
+			
+		#banner h2 {
+			border-style: double solid;
+			border-width: 4px 4px 4px 4px;
+			font-size: 2.5em;
+			line-height: 1.5em;
+			margin: 0 auto 1em;
+			padding: 1.0em;
+			position: relative;
+			width: 50%;
+		}
+
+		#banner p {
+			font-size: 1.5em;
+			text-transform: uppercase;
+		}
+
+
+/* Footer */
+
+	#footer {
+		background-color: #FFE4E1;
+		color: #444;
+		padding: 5em 0 4em 0;
+		position: relative;
+	}
+
+
+		#footer:before {
+			background-color: #ddd;
+			content: '';
+			height: 1px;
+			left: 30%;
+			position: absolute;
+			top: 0;
+			width: 40%;
+		}
+
+		#footer .copyright {
+			color: #bbb;
+			font-size: 0.9em;
+			margin: 0 0 2em 0;
+			padding: 0;
+			text-align: center;
+			text-transform: uppercase;
+		}

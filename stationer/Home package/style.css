@@ -1,0 +1,49 @@
+h1
+{
+text-align: center;
+}
+.navigation
+			{
+			color : black;
+			font-size:20px;
+			text-align:center;
+			}
+			ul{list-style:none;margin:0;padding:0;}
+			ul li{display:inline-block;padding:10px;}
+a:link
+{color : black;}
+
+table
+{
+	border-collapse:collapse;
+	margin:auto;
+	width: 50%;
+	height:50%;
+	text-align:center;
+	font-size:150%;
+	vertical-align:middle
+}
+tr
+{
+	border:none;
+	
+}
+
+#TR,#TD
+{
+	
+	border-right : solid 1px #f00;
+	border-height: 100%;
+}
+
+footer
+			{
+			margin-top:100px;
+			margin-bottom:0px;
+			font-size:18px;
+			text-align:center;
+			padding:1px 0
+			width:100%;
+			display: block;
+			}
+			

@@ -1,0 +1,54 @@
+h1,h4
+{
+	text-align:center;
+}
+
+body
+{
+	background-color:#FFE4E1;
+}
+
+#MyFormDiv
+{
+        width: 90%;
+	    padding: 100px;
+	    padding-left: 370px;
+
+}
+#arc
+{
+	 margin: 2px 0 2px 0;
+     padding: 0;
+}
+
+#MyFormDiv form
+{
+        background-color: #DCDCDC;
+        border: 1px solid #cc9;
+        padding: 20px;
+        padding-left: 100px;
+        font-family: verdana;
+        width: 50%;
+        font-size: 1em;
+}
+
+#MyFormDiv label
+{
+        float: left;
+        text-align: center;
+        margin: 0 5px 0 0;
+        width: 50%;
+}
+
+#MyFormDiv input
+{
+        width: 200px;
+        border: 1px solid #cc9;
+}
+
+#confirm-message2
+{
+        margin: 0;
+        padding: 0;
+        font-size: .8em;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+
+	<head>
+		<meta charset = "UTF-8">
+		<title> JavaScripts </title>
+		<link rel = "stylesheet" href="signup.css" type="text/css">
+		<script src="signup.js" > </script>
+	</head>
+	
+	<body>
+		<h1> Sign Up Form </h1>
+		<h4> Please Fill your data </h4>
+		<div id = "MyFormDiv">
+			<form id = "myForm" action = "signup.php" method = "post" onsubmit = "return Validation()">
+			
+				<div id = "arc">
+					<label for = "fname" > First Name </label>
+					<input type="text" name = "fName" > <br> <br> 
+				</div>
+				<div id = "arc">
+					<label for = "lname" > Last Name </label>
+					<input type="text" name = "lName" > <br> <br> 
+				</div>
+				<div id = "arc">
+					<label for = "email" > Email </label>
+					<input type="text" name = "email" > <br> <br> 
+				</div>
+				<div id = "arc">
+					<label for = "tele" > Telephone </label>
+					<input type="text" name = "tele" > <br> <br> 
+				</div>
+				<div id = "arc">
+					<label for = "password"> Password </label> 
+					<input type = "password" name = "password" > <br> <br> 
+				</div>
+					<div id = "arc">
+					<label for = "password">Retype Password </label> 
+					<input type = "password" name = "rpassword" > <br> <br> 
+				</div>
+				<div id = "arc">
+					<label for = "age" > Age </label>
+					<input type="text" name = "age" > <br> <br> 
+				</div>
+				
+				<div id = "arc">
+				<br> <br> 
+					<input type="radio" name="gender" value="male"> Male<br>
+					<input type="radio" name="gender" value="female"> Female<br>
+					<input type="radio" name="gender" value="other"> Other
+						<br> <br> 
+					</select> <br> <br>
+				</div>
+				<div  id = "arc">
+					<label for = "Submit"> Click To Submit </label>
+					<input type = "Submit" value = "Submit" name = "sub"> <br>
+				</div>
+				
+			</form>
+		</div>
+	</body>
+
+</html>
